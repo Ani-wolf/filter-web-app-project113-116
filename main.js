@@ -14,7 +14,7 @@ function setup() {
 
 function gotPoses(results)
 {
-    if(results.length . 0)
+    if(results.length > 0)
     {
         console.log(results);
         console.log("lips x = " + results[0].pose.lips.x);
