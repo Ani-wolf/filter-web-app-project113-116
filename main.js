@@ -19,6 +19,8 @@ function gotPoses(results)
         console.log(results);
         console.log("lips x = " + results[0].pose.lips.x);
         console.log("lips y = " + results[0].pose.lips.y);
+    }
+}
 
 function modelLoaded() {
 console.log('PoseNet Is Initialized');
