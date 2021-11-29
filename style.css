@@ -13,5 +13,5 @@ canvas{
 
 @keyframes example {
     from {box-shadow: 1px 1px 38px blueviolet;}
-    to {{box-shadow: 1px 1px 38px pink;}
+    to {box-shadow: 1px 1px 38px pink;}
 }
