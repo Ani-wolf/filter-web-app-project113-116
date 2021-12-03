@@ -25,8 +25,8 @@ function gotPoses(results)
     if(results.length > 0)
     {
     console.log(results);
-    lipsX = results[0].pose.lips.x;
-    lipsY = results[0].pose.lips.y;
+    lipsX = results[0].pose.nose.x - 25;
+    lipsY = results[0].pose.nose.y + 15;
     console.log("lips x = " + lipsX);
     console.log("lips y = " + lipsY);
     }
