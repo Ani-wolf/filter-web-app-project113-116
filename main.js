@@ -37,7 +37,6 @@ function draw() {
     //fill(255,0,0);
     //stroke(255,0,0);
     //circle(lipsX, lipsY, 20);
-    image(lipstick, lipsY, lipsY, 30, 30);
 }
 
 function take_snapshot() {
